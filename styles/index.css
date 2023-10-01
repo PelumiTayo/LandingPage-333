@@ -94,3 +94,100 @@ footer {
     text-align: center;
     line-height: 1.5em;
 }
+
+
+.item:first-child ~ .item {
+    width: 20%;
+    border: 1px solid #473bf0;
+    text-align: center;
+  }
+  
+  #priceBreakdown {
+    color: white;
+    border: 3px solid #9b9ece;
+    margin: 0 auto;
+    height: fit-content;
+    width: 1024px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+
+  }
+  
+  .eachBreakdown {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .eachBreakdown:first-child {
+    height: 7em;
+  }
+  .eachBreakdown:first-child .item {
+    padding: 5px;
+    border: none;
+  }
+  
+  .eachBreakdown:first-child .item:nth-child(2),
+  .eachBreakdown:first-child .item:nth-child(3) {
+    border-right: 1px solid white;
+  }
+  
+  .eachBreakdown .item:first-child {
+    padding: 5px;
+  }
+  
+  .item:first-child {
+    width: 40%;
+    text-align: center;
+  }
+  
+  .item {
+    border: 1px solid white;
+    font-size: large;
+  }
+  
+  .check {
+    color: white;
+  }
+  
+  .breakdownButton {
+    background-color: #6665dd;
+    color: white;
+    border: 1px solid #6665dd;
+    border-radius: 30px;
+    height: 25px;
+    font-size: small;
+    width: 75%;
+  }
+  
+  .breakdownButton:hover {
+    cursor: pointer;
+  }
+  
+  #prodName {
+      font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+      font-size: 200%;
+    }
+    
+    #prodName:hover {
+      transform: scale(150%);
+      cursor: pointer;
+      transition: all 1s;
+    }
+  
+  @media (max-width: 448px) {
+    .breakdownButton {
+      font-size: x-small;
+    }
+    .eachBreakdown:first-child .item:first-child ~ .item {
+      font-size: x-small;
+    }
+    .eachBreakdown .item:first-child {
+      font-size: 73%;
+    }
+  }
+  
+  
+  
