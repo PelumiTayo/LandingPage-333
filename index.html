@@ -3,11 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel='icon' href='images/logo.png' type='image/icon'>
+    <title>COMP333:Assignment1</title>
+    <link rel="stylesheet" href="styles/navbar.css">
+    <link rel="stylesheet" href="styles/index.css">
 </head>
 <body>
-    
-    <h1>Landing Page</h1>
+    <nav class="globalnav">
+        <ul class="nav-content">
+            <li class="logo">
+                <a href="#" class="logo-link">
+                    <img class="navbar-logo" src="images/logo.png" alt="" width="32" height="32">
+                </a>
+            </li>
+            <li class="about"><a href="/about.html" class="navlink">About us</a></li>
+            <li class="login"><button onclick="location.href='login.html'" type="button">Sign in</button></li>
+            <!-- <li class="login"><a href="register" class="navlink">Sign up</a></li> -->
+        </ul>
+    </nav>
+    <main>
+        <div class="content1">
+            <h1 style="color:white">Rate your favorite songs now!<br> Sign up Today!</h1>
+            <form action="register.html" method="get">
+                <input type="text" name="email" placeholder="Enter your email">
+                <button>Sign up</button>
+            </form>
+        </div>
+        <div id="content2">
+            <img src="./images/backdrop_2.png" alt="">
+            <div id="content2-sub">
+                <h3>Link your music account</h3>
+                <ul id="music-links">
+                    <li>Spotify</li>
+                    <li>Apple Music</li>
+                    <li>Youtube Music</li>
+                    <li>Soundcloud</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <p>Website hosted with Github Pages</p>
+            <p>COMP333: Software Engineering</p>
+        </div>
+    </footer>
+
 </body>
 </html>
