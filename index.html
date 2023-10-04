@@ -1,174 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>COMP333:Assignment1</title>
-    <link rel="stylesheet" href="styles/navbar.css">
-    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/navbar.css" />
+    <link rel="stylesheet" href="styles/index.css" />
     <script
       src="https://kit.fontawesome.com/7d11581848.js"
       crossorigin="anonymous"
     ></script>
-</head>`
-<body>
+    <meta
+      name="description"
+      content="SonicScore is a comprehensive music rater application designed to allow users to enter, rate, and review their favorite songs. Utilizing a recommendation algorithm, SonicScore recommends personalized songs for users to enhance the user experience.
+      "
+    />
+  </head>
+  <body>
     <nav class="globalnav">
-        <ul class="nav-content">
-            <li class="logo">
-                <a href="index.html" class="logo-link">
-                    <img class="navbar-logo" src="images/logo.png" alt="" width="32" height="32">
-                </a>
-            </li>
-            <li class="about"><a href="/about.html" class="navlink">About us</a></li>
-            <li class="login"><button onclick="location.href='signIn.html'" type="button">Sign in</button></li>
-            <!-- <li class="login"><a href="register" class="navlink">Sign up</a></li> -->
-        </ul>
+      <ul class="nav-content">
+        <li class="logo">
+          <a href="index.html" aria-label="SonicScore's logo" class="logo-link">
+            <img
+              class="navbar-logo"
+              src="images/logo.png"
+              alt=""
+              width="32"
+              height="32"
+            />
+          </a>
+        </li>
+        <li class="about">
+          <a href="/about.html" class="navlink">About us</a>
+        </li>
+        <li class="login">
+          <button onclick="location.href='signIn.html'" type="button">
+            Sign in
+          </button>
+        </li>
+        <!-- <li class="login"><a href="register" class="navlink">Sign up</a></li> -->
+      </ul>
     </nav>
     <main>
-        <div class="content1">
-            <h1 style="color:white">Rate your favorite songs now!<br> Sign up Today!</h1>
-            <form action="signUp.html" method="get">
-                <input type="text" name="email" placeholder="Enter your email">
-                <button>Sign up</button>
-            </form>
-        </div>
-        <div class="aboutpage">
-          <iframe src="about.html" frameborder="0" style="height:500px; width: 100%;"></iframe>  
-        </div>
-        <div id="priceBreakdown">
-          <div class="eachBreakdown">
-            <div class="item" id="prodName">SonicScore</div>
-            <div class="item">
-              <span class="accountBreakdown">Personal</span>
-              <br />
-              <span class="moneyBreakdown">$4.99/mo.</span>
-              <br />
-              <br />
-              <button class="breakdownButton">Try it!</button>
-              <br />
-            </div>
-            <div class="item">
-              <span class="accountBreakdown">Student</span>
-              <br />
-              <span class="moneyBreakdown">$5.99/mo.</span>
-              <br />
-              <br />
-              <button class="breakdownButton">Try it!</button>
-            </div>
-            <div class="item">
-              <span class="accountBreakdown">Individual</span>
-              <br />
-              <span class="moneyBreakdown">$10.99/mo.</span>
-              <br />
-              <br />
-              <button class="breakdownButton">Try it!</button>
-            </div>
+      <div class="content1">
+        <h1 style="color: white">
+          Rate your favorite songs now!<br />
+          Sign up Today!
+        </h1>
+        <form action="signUp.html" method="get">
+          <input type="text" name="email" placeholder="Enter your email" />
+          <button>Sign up</button>
+        </form>
+      </div>
+      <div class="aboutpage">
+        <iframe src="about.html" frameborder="0" style="height:500px; width: 100%;"></iframe>  
+      </div>
+      <div id="priceBreakdown">
+        <div class="eachBreakdown">
+          <div class="item" id="prodName">SonicScore</div>
+          <div class="item">
+            <span class="accountBreakdown">Personal</span>
+            <br />
+            <span class="moneyBreakdown">$4.99/mo.</span>
+            <br />
+            <br />
+            <button class="breakdownButton">Try it!</button>
+            <br />
           </div>
-          <div class="eachBreakdown">
-            <div class="item">
-              <p>Free Trial with no commitment!</p>
-            </div>
-            <div class="item">
-              <span class="check">
-                <i class="fa-solid fa-check"></i>
-              </span>
-            </div>
-            <div class="item">
-              <span class="check">
-                <i class="fa-solid fa-check"></i>
-              </span>
-            </div>
-            <div class="item">
-              <span class="check">
-                <i class="fa-solid fa-check"></i>
-              </span>
-            </div>
+          <div class="item">
+            <span class="accountBreakdown">Student</span>
+            <br />
+            <span class="moneyBreakdown">$5.99/mo.</span>
+            <br />
+            <br />
+            <button class="breakdownButton">Try it!</button>
           </div>
-          <div class="eachBreakdown">
-            <div class="item">
-              <p>Available on other supported devices and browsers</p>
-            </div>
-            <div class="item">
-              <span class="check">
-                <i class="fa-solid fa-check"></i>
-              </span>
-            </div>
-            <div class="item">
-              <span class="check">
-                <i class="fa-solid fa-check"></i>
-              </span>
-            </div>
-            <div class="item">
-              <span class="check">
-                <i class="fa-solid fa-check"></i>
-              </span>
-            </div>
-          </div>
-          <div class="eachBreakdown">
-            <div class="item">
-              <p>See what your friends and family are listening to*</p>
-            </div>
-            <div class="item">
-              <span class="check"></span>
-            </div>
-            <div class="item">
-              <span class="check">
-                <i class="fa-solid fa-check"></i>
-              </span>
-            </div>
-            <div class="item">
-              <span class="check">
-                <i class="fa-solid fa-check"></i>
-              </span>
-            </div>
-          </div>
-          <div class="eachBreakdown">
-            <div class="item">
-              <p>Unlimited ratings and review of songs!*</p>
-            </div>
-            <div class="item">
-              <span class="check"></span>
-            </div>
-            <div class="item">
-              <span class="check">
-                <i class="fa-solid fa-check"></i>
-              </span>
-            </div>
-            <div class="item">
-              <span class="check">
-                <i class="fa-solid fa-check"></i>
-              </span>
-            </div>
-          </div>
-          <div class="eachBreakdown">
-            <div class="item">
-              <p>Personalized recommendations for each family member.*</p>
-            </div>
-            <div class="item">
-              <span class="check"></span>
-            </div>
-            <div class="item">
-              <span class="check"></span>
-            </div>
-            <div class="item">
-              <span class="check">
-                <i class="fa-solid fa-check"></i>
-              </span>
-            </div>
+          <div class="item">
+            <span class="accountBreakdown">Individual</span>
+            <br />
+            <span class="moneyBreakdown">$10.99/mo.</span>
+            <br />
+            <br />
+            <button class="breakdownButton">Try it!</button>
           </div>
         </div>
-        <div id="content2">
-            <img src="./images/backdrop_2.png" alt="">
-            <div id="content2-sub">
-                <h3>Link your music account</h3>
-                <ul id="music-links">
-                    <li>Spotify</li>
-                    <li>Apple Music</li>
-                    <li>Youtube Music</li>
-                    <li>Soundcloud</li>
-                </ul>
-            </div>
+        <div class="eachBreakdown">
+          <div class="item">
+            <p>Free Trial with no commitment!</p>
+          </div>
+          <div class="item">
+            <span class="check">
+              <i class="fa-solid fa-check"></i>
+            </span>
+          </div>
+          <div class="item">
+            <span class="check">
+              <i class="fa-solid fa-check"></i>
+            </span>
+          </div>
+          <div class="item">
+            <span class="check">
+              <i class="fa-solid fa-check"></i>
+            </span>
+          </div>
         </div>
+        <div class="eachBreakdown">
+          <div class="item">
+            <p>Available on other supported devices and browsers</p>
+          </div>
+          <div class="item">
+            <span class="check">
+              <i class="fa-solid fa-check"></i>
+            </span>
+          </div>
+          <div class="item">
+            <span class="check">
+              <i class="fa-solid fa-check"></i>
+            </span>
+          </div>
+          <div class="item">
+            <span class="check">
+              <i class="fa-solid fa-check"></i>
+            </span>
+          </div>
+        </div>
+        <div class="eachBreakdown">
+          <div class="item">
+            <p>See what your friends and family are listening to*</p>
+          </div>
+          <div class="item">
+            <span class="check"></span>
+          </div>
+          <div class="item">
+            <span class="check">
+              <i class="fa-solid fa-check"></i>
+            </span>
+          </div>
+          <div class="item">
+            <span class="check">
+              <i class="fa-solid fa-check"></i>
+            </span>
+          </div>
+        </div>
+        <div class="eachBreakdown">
+          <div class="item">
+            <p>Unlimited ratings and review of songs!*</p>
+          </div>
+          <div class="item">
+            <span class="check"></span>
+          </div>
+          <div class="item">
+            <span class="check">
+              <i class="fa-solid fa-check"></i>
+            </span>
+          </div>
+          <div class="item">
+            <span class="check">
+              <i class="fa-solid fa-check"></i>
+            </span>
+          </div>
+        </div>
+        <div class="eachBreakdown">
+          <div class="item">
+            <p>Personalized recommendations for each family member.*</p>
+          </div>
+          <div class="item">
+            <span class="check"></span>
+          </div>
+          <div class="item">
+            <span class="check"></span>
+          </div>
+          <div class="item">
+            <span class="check">
+              <i class="fa-solid fa-check"></i>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div id="content2">
+        <img src="./images/backdrop_2.png" alt="" />
+        <div id="content2-sub">
+          <h3>Link your music account</h3>
+          <ul id="music-links">
+            <li>Spotify</li>
+            <li>Apple Music</li>
+            <li>Youtube Music</li>
+            <li>Soundcloud</li>
+          </ul>
+        </div>
+      </div>
     </main>
     <script>
       window.addEventListener("resize", function () {
