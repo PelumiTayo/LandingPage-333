@@ -23,6 +23,12 @@ main {
     background-position: center;
 }
 
+.aboutpage {
+  display: block;
+  margin: auto;
+  max-width: 1024px;
+}
+
 .content1 h1 {
     /* position: relative; */
     text-align: center;

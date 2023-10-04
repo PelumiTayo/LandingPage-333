@@ -10,7 +10,7 @@
       src="https://kit.fontawesome.com/7d11581848.js"
       crossorigin="anonymous"
     ></script>
-</head>
+</head>`
 <body>
     <nav class="globalnav">
         <ul class="nav-content">
@@ -31,6 +31,9 @@
                 <input type="text" name="email" placeholder="Enter your email">
                 <button>Sign up</button>
             </form>
+        </div>
+        <div class="aboutpage">
+          <iframe src="about.html" frameborder="0" style="height:500px; width: 100%;"></iframe>  
         </div>
         <div id="priceBreakdown">
           <div class="eachBreakdown">
@@ -167,12 +170,15 @@
             </div>
         </div>
     </main>
-    <footer>
-        <div>
-            <p>Website hosted with Github Pages</p>
-            <p>COMP333: Software Engineering</p>
-        </div>
-    </footer>
-
+    <script>
+      window.addEventListener("resize", function () {
+        if (window.innerWidth <= 448) {
+          document.getElementById("prodName").innerHTML = "SS";
+        } else {
+          document.getElementById("prodName").innerHTML = "SonicScore";
+        }
+      });
+    </script>
 </body>
+
 </html>
