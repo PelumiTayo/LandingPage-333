@@ -18,7 +18,7 @@ html {
 
 .creator {
   width: 40vw;
-  height: 60vh;
+  height: fit-content;
 }
 
 .creatorImage {
