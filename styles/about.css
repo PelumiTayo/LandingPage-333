@@ -1,0 +1,123 @@
+html {
+  background-color: #000500;
+}
+
+#about {
+  color: white;
+  margin-top: 80px;
+}
+
+#creatorContent {
+  display: flex;
+  justify-content: space-around;
+  border: 5px solid #9b9ece;
+  width: 80vw;
+  height: fit-content;
+  margin: 0 auto;
+}
+
+.creator {
+  width: 40vw;
+  height: 60vh;
+}
+
+.creatorImage {
+  width: 100%;
+  height: 60%;
+  object-fit: contain;
+}
+
+#aboutSS {
+  height: fit-content;
+  display: flex;
+  justify-content: space-around;
+  border: 5px solid #9b9ece;
+  width: 80vw;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.sonicdesc {
+  width: 40vw;
+  height: 35vh;
+  object-fit: contain;
+  font-size: 150%;
+}
+
+.sonicdesc:first-child {
+  margin-top: 5%;
+}
+.sonicdesc:nth-child(2) {
+  padding: 4%;
+  width: 80%;
+  text-align: center;
+}
+
+.aboutHeading {
+  text-align: center;
+  font-size: 120%;
+  color: #473bf0;
+}
+
+.creatorBio {
+  text-align: center;
+  margin: 0 auto;
+  width: 99%;
+  max-height: 40%;
+}
+
+.creatorName {
+  font-size: 130%;
+  font-weight: bolder;
+}
+
+.creatorSchool {
+  display: inline-block;
+  font-size: 110%;
+  margin: 5px;
+}
+.creator img {
+  width: 35vh;
+  height: 35vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+a {
+  text-decoration: none;
+  margin: 5px;
+  font-size: x-large;
+}
+
+a:hover{
+    cursor: pointer;
+}
+
+.creatorDesc {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 5px;
+  overflow-y: scroll;
+  overflow: hidden;
+}
+
+@media (max-width: 880px) {
+  #creatorContent {
+    height: fit-content;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  #aboutSS {
+    flex-direction: column;
+  }
+  .sonicdesc:nth-child(2) {
+    height: fit-content;
+    padding: 50px;
+  }
+  .creator {
+    width: 100%;
+    height: fit-content;
+  }
+}
