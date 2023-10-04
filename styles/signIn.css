@@ -52,7 +52,7 @@ html {
 }
 
 #signupbutton {
-  width: 40%;
+  width: fit-content;
   height: 15%;
   border-radius: 30px;
   font-size: 110%;

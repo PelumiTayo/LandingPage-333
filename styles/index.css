@@ -49,7 +49,8 @@ main {
     /* width: 20em; */
     padding: 6px 0;
     margin: 6px 0;
-    font-size: 1.5em;
+    font-size: 1.2em;
+    width: 60%;
     background-color: transparent;
     border: solid white;
     border-radius: 2px;
@@ -88,17 +89,6 @@ main {
     margin-top: 2em;
     list-style: none;
     display: inline-block;
-}
-
-footer {
-    /* left: 50%;
-    transform: translateX(-50%); */
-    /* bottom: 0; */
-    color: white;
-    position: static;
-    /* margin-bottom: 2em; */
-    text-align: center;
-    line-height: 1.5em;
 }
 
 
@@ -164,7 +154,6 @@ footer {
     border-radius: 30px;
     height: 25px;
     font-size: small;
-    width: 75%;
   }
   
   .breakdownButton:hover {
@@ -186,7 +175,7 @@ footer {
   
   @media (max-width: 448px) {
     .breakdownButton {
-      font-size: x-small;
+      font-size: xx-small;
     }
     .eachBreakdown:first-child .item:first-child ~ .item {
       font-size: x-small;
