@@ -33,3 +33,7 @@ The site can be accessed by opening `index.html` using your web browser of choic
 - Pelumi Tayo-Orisadare [🔗](https://github.com/PelumiTayo)
 - John Whangbo [🔗](https://github.com/jwwhangbo)
 
+## [Deployed Website] (https://pelumitayo.github.io/LandingPage-333/)
+
+
+
